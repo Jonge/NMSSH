@@ -3,18 +3,18 @@
 This is a forked project from [original NMSSH](https://github.com/NMSSH/NMSSH). Differences are as follows.
 
 * Changed to Swift Package.
-* Libssh2, libssl, libcrypto are removed. You can use [Libssh2Prebuild](https://github.com/MidoriMinato/Libssh2Prebuild) Swift Package to add these libraries.
+* Libssh2, libssl, libcrypto are removed. You can use [Libssh2Prebuild](https://github.com/Jonge/Libssh2Prebuild) Swift Package to add these libraries.
 * SHA256 fingerprint is added.
 
 ## Installation
 
 Add NMSSH package with Xcode Swift Package Manager. Enter the following URL in the search box.
 
-`https://github.com/MidoriMinato/NMSSH`
+`https://github.com/Jonge/NMSSH`
 
 If your project does not already include libssh2, libssl, libcrypto, add Libssh2Prebuild package from Xcode Swift Package Manager. Enter the following URL in the search box.
 
-`https://github.com/MidoriMinato/Libssh2Prebuild`
+`https://github.com/Jonge/Libssh2Prebuild`
 
 ### Include it in your project
 
